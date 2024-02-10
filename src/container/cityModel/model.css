@@ -1,0 +1,79 @@
+.Model-section {
+  background-color: var(--bgcolor);
+}
+.city-model-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #7c7c7c;
+  font-size: 16px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 20px;
+  column-gap: 15px;
+}
+.grids:hover {
+  background-color: var(--yellowish);
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+.grids:hover h4 {
+  color: white;
+}
+.grids {
+  padding: 30px 15px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+}
+.grids h4 {
+  margin: 10px 0;
+  font-weight: 600;
+  color: var(--title);
+}
+.logo-icon {
+  width: 32px;
+  height: 32px;
+}
+.icons {
+  background-color: #ccd0d8;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 200px;
+}
+.description {
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 14px;
+  text-align: center;
+}
+.partners-and-description {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+@media screen and (max-width: 1050px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 700px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+  .city-model-head h2 {
+    font-size: 24px;
+  }
+}

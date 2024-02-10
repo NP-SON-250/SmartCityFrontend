@@ -1,0 +1,27 @@
+
+
+:root {
+  --RibbonBlue: #1463f3;
+  --ZodiacBlue: #0c243c;
+  --GhostGray: #ccd0d8;
+
+  /* New Color palette? */
+  --bgcolor: #f5f5f5;
+  --white: #fff;
+  --black: #000;
+  --DarkGray: #7a7a7a;
+  --yellowish: #ffcd06;
+  --title: #edc121;
+}
+/* custome scroll bar */
+::-webkit-scrollbar {
+  width: 8px;
+  margin-left: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ffcd06;
+  border-radius: 5px;
+}

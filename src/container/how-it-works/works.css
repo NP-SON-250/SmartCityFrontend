@@ -1,0 +1,64 @@
+.how__it_works {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  row-gap: 30px;
+}
+.how__signup {
+  background-color: white;
+  width: 32%;
+  border-radius: 16px;
+  /* padding: 20px; */
+  box-shadow: 2px 10px 34px -15px rgba(0, 0, 0, 0.24);
+}
+.photowork img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.HowItWorksTitle {
+  color: var(--title);
+  transition: 0.3s ease-in-out;
+}
+.HowItWorksTitle :hover {
+  transform: scale(1.1);
+}
+.how__header h1 {
+  color: var(--ZodiacBlue);
+  font-size: 32px;
+  font-weight: 600;
+}
+.how__header .underscore {
+  width: 100px;
+  height: 4px;
+  background: var(--yellowish);
+}
+.how__content {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+@media screen and (max-width: 750px) {
+  .how__it_works .how__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .how__it_works {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .how__signup {
+    width: 100%;
+    margin-top: 3rem;
+  }
+}

@@ -1,0 +1,55 @@
+.text-container{
+    width: 80%;
+    /* height: 200px; */
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 40px;
+}
+.profile-container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 100%;
+    margin: 0px 40px;
+    margin-top: 10%;
+    justify-content: space-between;
+
+}
+.card-holder{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    border-radius: 12px;
+}
+.profile-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 300px;
+    box-shadow: 0 4px 8px 0 rgba(115, 5, 249, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.profile-name{
+    font-size: 15px;
+    color: #1463f3;
+}
+.profile-career{
+    font-size: 15px;
+}
+.profile-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: grey; */
+}
+.swiper-button-next:after{
+    font-size: 24px !important;
+    color: #ffa406 !important
+
+}
+.swiper-button-prev::after{
+    font-size: 24px !important;
+    color: #ffa406 !important
+
+}

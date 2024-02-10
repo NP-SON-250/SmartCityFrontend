@@ -1,0 +1,10 @@
+export { default as Home } from "../pages/home/Home";
+export { default as About } from "../pages/about/About";
+export { default as Benchmarks } from "../pages/benchmarks/Benchmarks";
+export { default as Cityprofiles } from "../pages/cityprofiles/Cityprofiles";
+export { default as Rankings } from "../pages/rankings/Rankings";
+export { default as Contact } from "../pages/contact/Contact";
+export { default as Signin } from "../pages/signin/Signin";
+export { default as ForgotPassword } from "../pages/forgot-password/ForgotPassword";
+export { default as Signup } from "../pages/signup/Signup";
+export { default as Notfound } from "../pages/404/Notfound";

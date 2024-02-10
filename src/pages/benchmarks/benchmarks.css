@@ -1,0 +1,166 @@
+.benchmarks__container {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.benchmarks__Legends {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-legend {
+  height: 500px;
+  height: 300px;
+  flex-shrink: 0;
+}
+.left-legend h2 {
+  color: var(--ZodiacBlue);
+  font-size: 24px;
+  font-weight: 600;
+}
+.right-legend h2 {
+  color: var(--ZodiacBlue);
+  font-size: 24px;
+  font-weight: 600;
+}
+.legends-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.legends-flex h3 {
+  color: var(--ZodiacBlue, #000);
+  font-size: 20.97px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.first__legends {
+  width: 138px;
+  height: 3px;
+  background-color: #1463f3;
+}
+.second__legends {
+  width: 138px;
+  height: 3px;
+  background-color: #0c243c;
+}
+.third__legends {
+  width: 138px;
+  height: 3px;
+  background-color: #1463f3;
+}
+.legends {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.legends-flex select {
+  display: flex;
+  width: 450px;
+  padding: 6.553px 19.659px;
+  justify-content: center;
+  align-items: center;
+  gap: 13.106px;
+  border-radius: 6.553px;
+  border: 1.311px solid var(--Ghost, #ccd0d8);
+  background: var(--white, #fff);
+}
+.linechart {
+  width: 100%;
+}
+
+/* Style the CartesianGrid */
+.linechart .recharts-cartesian-grid-horizontal line {
+  stroke: #ddd; /* Customize the horizontal grid lines color */
+}
+
+.linechart .recharts-cartesian-grid-vertical line {
+  stroke: #ddd; /* Customize the vertical grid lines color */
+}
+
+/* Style the XAxis and YAxis */
+.linechart .recharts-axis-domain {
+  stroke: #555; /* Customize the axis lines color */
+}
+
+.linechart .recharts-axis-tick-value {
+  fill: #555; /* Customize the axis tick labels color */
+}
+
+/* Style the Tooltip */
+.linechart .recharts-tooltip {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+/* Style the Legend */
+.linechart .recharts-legend {
+  margin-top: 20px;
+}
+
+.linechart .recharts-legend-item {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Style the Lines */
+.linechart .recharts-line {
+  stroke-width: 2px; /* Customize the line thickness */
+}
+
+.linechart .recharts-line-dash {
+  stroke-dasharray: 5; /* Customize the line style (e.g., dashed) */
+}
+
+/* Style the Active Dot */
+.linechart .recharts-line-dot {
+  fill: #fff;
+  stroke-width: 2px;
+  stroke: #333;
+}
+@media screen and (max-width: 1024px) {
+  .section__margin {
+    padding: 2rem;
+  }
+  .linechart {
+    width: 950px;
+  }
+}
+/* Tablet Version */
+@media screen and (max-width: 1024px) {
+  .benchmarks__Legends {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+/* Tablet Version */
+@media screen and (max-width: 820px) {
+  .benchmarks__Legends {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+/* Tablet Version */
+@media screen and (max-width: 768px) {
+  .benchmarks__Legends {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+/* Mobile Version */
+@media screen and (max-width: 550px) {
+  .benchmarks__Legends {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

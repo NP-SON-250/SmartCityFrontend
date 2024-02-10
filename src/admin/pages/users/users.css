@@ -1,0 +1,92 @@
+.users-container {
+  background-color: var(--white);
+  margin: 20px;
+  border-radius: 10px;
+  height: 95%;
+  padding: 20px;
+}
+.Button-action {
+  color: rgba(4, 0, 0, 0.759);
+}
+.find-more {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.find-more h3 {
+  color: var(--ZodiacBlue);
+}
+.find-more button {
+  border: none;
+  padding: 10px 20px;
+  background-color: var(--yellowish);
+  border-radius: 10px;
+  color: white;
+}
+.edit-buttom {
+  cursor: pointer;
+}
+.delete-buttom {
+  cursor: pointer;
+  color: var(--yellowish);
+}
+.delete-buttom :hover {
+  cursor: pointer;
+  color: rgba(4, 0, 0, 0.759);
+}
+.add__dimension {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 15px auto;
+  background-color: var(--white);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.add__dimension-row {
+  display: flex;
+  gap: 8px;
+}
+.add__dimension label {
+  color: #7c7c7c;
+  font-size: 16px;
+}
+/* Input styling */
+.add__dimension input,
+.add__dimension .selectBox,
+.add__dimension textarea,
+.add__dimension select {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid var(--ZodiacBlue);
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+.add__dimension button {
+  background-color: var(--yellowish);
+  color: var(--white);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.img-container {
+  width: 40px;
+  height: 40px;
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  vertical-align: middle;
+  border-style: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}

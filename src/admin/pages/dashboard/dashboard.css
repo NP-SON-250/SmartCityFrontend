@@ -1,0 +1,215 @@
+.dashboard__container {
+  width: 100%;
+  height: 85vh;
+  padding: 15px;
+  background-color: var(--bgcolor);
+  overflow-y: scroll;
+  position: relative;
+}
+.spinner {
+  position: absolute;
+  background: green;
+  width: 40%;
+  height: 40%;
+  top: 30%;
+  right: 35%;
+  display: none;
+}
+.header__dashboard form {
+  background-color: var(--white);
+  height: auto;
+  padding: 8px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.formatter__icon {
+  color: black;
+}
+.iconthing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Container Styles */
+.select__survey {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  margin: 20px;
+}
+
+/* Label Styles */
+.select__survey span {
+  color: black;
+  font-weight: bold;
+}
+
+/* Select Styles */
+.select__survey select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.select__survey option {
+  font-size: 14px;
+}
+
+.select__survey select:hover,
+.select__survey select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.gocharts {
+  background-color: var(--yellowish);
+  padding: 16px 24px;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+.cards__dashboard {
+  margin-top: 0.5rem;
+  background-color: var(--white);
+  height: auto;
+  border-radius: 10px;
+}
+.cards__dashboard__header {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.cards__dashboard__content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.firstanalytics__dashboard {
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+  /* padding: 15px; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+  border-radius: 10px;
+  gap: 15px;
+}
+.chart1 {
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  height: 400px;
+  flex: 2;
+  background-color: var(--white);
+}
+.chart2 {
+  padding: 15px;
+  background-color: var(--white);
+  border-radius: 10px;
+  width: 100%;
+  height: 400px;
+  flex: 1;
+}
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+  .header__dashboard {
+    background-color: var(--white);
+    height: auto;
+    padding: 8px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .ant-select-selector {
+    width: 100%;
+  }
+  .gocharts {
+    width: 100%;
+  }
+  .firstanalytics__dashboard {
+    width: 100%;
+    height: 800px;
+    /* padding: 15px; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .select__survey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+  }
+  .header__dashboard {
+    background-color: var(--white);
+    height: auto;
+    padding: 8px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .ant-select-selector {
+    width: 100%;
+  }
+  .gocharts {
+    width: 100%;
+  }
+  .cards__dashboard__content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  .firstanalytics__dashboard {
+    width: 100%;
+    height: 800px;
+    background-color: var(--white);
+    /* padding: 15px; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    gap: 15px;
+  }
+  .chart1 {
+    width: 100%;
+    height: 200px;
+    flex: 2;
+  }
+  .chart2 {
+    width: 100%;
+    height: 200px;
+    flex: 1;
+  }
+}

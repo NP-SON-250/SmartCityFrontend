@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matrix Survey</title>
+</head>
+
+<body>
+  <script>
+    const suvery = [
+      {
+        name: "Technology",
+        questions: [
+          {
+            title:
+              "What types of smart technologies have been adopted in the city?",
+            response: [
+              {
+                answer: "Limited adoption",
+                weight: 0,
+              },
+              {
+                answer: "Some adoption",
+                weight: 10,
+              },
+              {
+                answer: "Wide adoption",
+                weight: 15,
+              },
+            ],
+          },
+          {
+            title:
+              "Are there IoT devices and data collection initiatives being used to gather real-time information?",
+            response: [
+              {
+                answer: "No",
+                weight: 0,
+              },
+              {
+                answer: "Yes",
+                weight: 5,
+              },
+            ],
+          },
+          {
+            title:
+              "How advanced are the city's data analytics capabilities to derive insights from collected data?",
+            response: [
+              {
+                answer: "Minimal use",
+                weight: 0,
+              },
+              {
+                answer: "Moderate use",
+                weight: 10,
+              },
+              {
+                answer: "Extensive use",
+                weight: 15,
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: "Infrastructure",
+        questions: [
+          {
+            title:
+              "How many smart infrastructure projects are currently in place within the city?",
+            response: [
+              {
+                answer: "No projects (0)",
+                weight: 0,
+              },
+              {
+                answer: "Few projects (Below 10)",
+                weight: 10,
+              },
+              {
+                answer: "Many projects (10-20)",
+                weight: 15,
+              },
+            ],
+          },
+          {
+            title:
+              "Are there any pilot projects for smart transportation, energy management, or  Waste management?",
+            response: [
+              {
+                answer: "No",
+                weight: 0,
+              },
+              {
+                answer: "Yes",
+                weight: 5,
+              },
+            ],
+          },
+          {
+            title:
+              "How well are these smart infrastructure projects integrated with each other",
+            response: [
+              {
+                answer: "Not integrated",
+                weight: 0,
+              },
+              {
+                answer: "Partially integrated",
+                weight: 10,
+              },
+              {
+                answer: "Fully integrated",
+                weight: 15,
+              },
+            ],
+          },
+          {
+            title:
+              "Is there a comprehensive plan for the deployment and integration of smart infrastructure city-wide? Criterion: accessibility to citizens.",
+            response: [
+              {
+                answer: "Limited access",
+                weight: 0,
+              },
+              {
+                answer: "Moderate access",
+                weight: 10,
+              },
+              {
+                answer: "High access",
+                weight: 15,
+              },
+            ],
+          },
+        ],
+      },
+    ];
+
+    console.log(suvery[0].questions);
+  </script>
+</body>
+
+</html>

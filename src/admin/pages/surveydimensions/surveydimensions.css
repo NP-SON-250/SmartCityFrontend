@@ -1,0 +1,206 @@
+.surveydimensions-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-radius: 10px;
+  margin: 15px;
+  height: 95vh;
+  background-color: var(--white);
+  overflow-y: scroll;
+}
+.surveydimensions-row {
+  display: flex;
+}
+.surveydimensions-container_left {
+  flex: 3;
+}
+.surveydimensions-container_right {
+  flex: 2;
+}
+.selected-survey {
+  box-shadow: 0px 1px 25px -10px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 0px 1px 25px -10px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 1px 25px -10px rgba(0, 0, 0, 0.46);
+  display: flex;
+  flex-direction: column;
+
+  margin: 24px;
+  border-radius: 10px;
+}
+.selected-survey-header {
+  background-color: rgba(28, 67, 105, 0.97);
+  opacity: 0.9;
+  border-radius: 10px;
+  border-left: 5px solid var(--title);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 10px;
+}
+.getsurveydimension {
+  padding: 10px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.addsurveydimension {
+  display: flex;
+  gap: 8px;
+}
+.addsurveydimension-left {
+  flex-basis: 40%;
+}
+.control-questions {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.addquestion-form textarea {
+  border: none;
+  border-bottom: 2px solid var(--title);
+}
+.addquestion-form textarea:focus {
+  outline: none;
+}
+.getquestions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.singleQuestion-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  padding: 20px;
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0px 1px 25px -10px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 0px 1px 25px -10px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 1px 25px -10px rgba(0, 0, 0, 0.46);
+}
+.singleQuestion-container-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.singleQuestion-container-header-questionNumber-circle {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: var(--title);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.singleQuestion-container-header-questionPhrase p {
+  font-size: 14p;
+  font-weight: 500;
+}
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.options-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.options-form .inputfield {
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+.options-form .inputfield:focus {
+  outline: none;
+  border-bottom: 2px solid var(--title);
+}
+.options-form .inputfield::placeholder {
+  font-size: 14px;
+}
+.options-result {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-left: 24px;
+}
+.option-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+}
+.publish-btn-wrp {
+  display: flex;
+  justify-content: center;
+}
+.publish-btn-wrp button {
+  color: var(--white);
+  cursor: pointer;
+  font-weight: 600;
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(12, 78, 12);
+  border-radius: 10px;
+}
+.surveydimensions-assign-container {
+  padding: 20px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 24px;
+  box-shadow: 0px 1px 25px -10px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 0px 1px 25px -10px rgba(0, 0, 0, 0.46);
+  -moz-box-shadow: 0px 1px 25px -10px rgba(0, 0, 0, 0.46);
+}
+.surveydimensions-assign-form-header h4 {
+  font-size: 16px;
+  color: #6e6b6b;
+  margin-bottom: 10px;
+}
+.surveydimensions-assign-form-body {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.surveydimensions-assign-form-body button {
+  color: var(--white);
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: dodgerblue;
+  cursor: pointer;
+}
+.surveydimensions-assign-form-result {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.profile-container {
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+.profile-image {
+  width: 40px;
+  height: 40px;
+}
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  vertical-align: middle;
+  border-style: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}

@@ -1,0 +1,32 @@
+.dash__footer {
+  width: 100%;
+  height: 100%;
+  background-color: var(--title);
+  padding: 1rem;
+}
+.dashfooter__container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-left: 24rem; */
+}
+
+.dashfooter__container h2 {
+  /* margin-right: 2rem; */
+  color: var(--white);
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 430px) {
+  .dashfooter__container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-left: 24rem; */
+  }
+}

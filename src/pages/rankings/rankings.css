@@ -1,0 +1,38 @@
+.rankings_container {
+  background-color: var(--bgcolor);
+}
+.rankings_title h1 {
+  color: var(--ZodiacBlue);
+}
+.rankings_content p {
+  color: var(--DarkGray);
+  margin: 20px 0;
+  line-height: 27px;
+  font-weight: 400;
+}
+.overall_container {
+  display: grid;
+  grid-template-columns: 2.8fr 1fr;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.singlecity_content {
+  display: flex;
+}
+
+@media screen and (max-width: 1050px) {
+  .overall_container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 700px) {
+  .overall_container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

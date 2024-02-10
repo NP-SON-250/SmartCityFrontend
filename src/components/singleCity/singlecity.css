@@ -1,0 +1,96 @@
+.singlecity_container {
+  background-color: #fff;
+  padding: 10px;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid var(--GhostGray);
+  display: flex;
+}
+.singlecity_image {
+  flex: 1;
+}
+.singlecity_image img {
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+.singlecity_content {
+  flex: 1.4;
+  display: flex;
+}
+.singlecity_rankings {
+  flex: 1;
+  display: flex;
+}
+.singlecity_details {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+}
+.singlecity_Name h4 {
+  color: var(--ZodiacBlue);
+  font-weight: 500;
+  line-height: 27px;
+}
+.singlecity_overall {
+  margin: 5px 0;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.singlecity_position p {
+  color: var(--ZodiacBlue);
+  font-weight: 500;
+  line-height: 27px;
+}
+.singlecity_container span {
+  color: var(--RibbonBlue);
+  cursor: pointer;
+}
+.singlecity_desc p {
+  color: var(--DarkGray);
+  line-height: 16px;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.singlecity_read-more p {
+  color: var(--ZodiacBlue);
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+}
+.singlecity_rankings {
+  display: flex;
+  justify-content: space-between;
+}
+.singlecity_rankings p {
+  color: var(--ZodiacBlue);
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+@media screen and (max-width: 700px) {
+  .singlecity_container {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .singlecity_content,
+  .singlecity_rankings {
+    flex-basis: 50%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .singlecity_content {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .singlecity_image,
+  .singlecity_details {
+    flex-basis: 50%;
+  }
+}

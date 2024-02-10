@@ -1,0 +1,10 @@
+.quetions-container {
+  background-color: var(--white);
+  margin: 20px;
+  border-radius: 10px;
+  height: 95%;
+  padding: 20px;
+}
+.addNew-btn {
+  margin-bottom: 20px;
+}

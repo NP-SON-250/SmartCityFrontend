@@ -1,0 +1,62 @@
+.whole-card {
+  border-radius: 5px;
+  background-color: white;
+  padding: 14px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.joined-card {
+  display: flex;
+}
+
+.Testimonial-card {
+  font-weight: lighter;
+}
+.Testimonial-card p {
+  width: 250px;
+  padding: 10px;
+
+  font-size: 13px;
+}
+.names h2 {
+  font-weight: bold;
+  font-size: 16px;
+}
+.names h3 {
+  color: var(--RibbonBlue);
+  font-weight: lighter;
+  font-size: 16px;
+}
+.only-image img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50px;
+  border: 2px solid #ffb32a;
+}
+@media screen and (max-width: 1050px) {
+  .whole-page {
+    grid-template-columns: auto;
+  }
+
+  .Aboutpage-stile {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 700px) {
+  .joined-card {
+    grid-template-columns: 1fr;
+  }
+  .whole-page {
+    grid-template-columns: 1fr;
+  }
+
+  .Smartcity-p p {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 550px) {
+  .joined-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}

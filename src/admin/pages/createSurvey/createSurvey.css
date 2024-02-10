@@ -1,0 +1,44 @@
+.createsurvey-container {
+  margin: 20px 40px;
+  border-radius: 10px;
+  background-color: var(--white);
+  height: 90%;
+  display: flex;
+  overflow: hidden;
+}
+
+.createsurvey-container .left {
+  padding: 30px;
+  display: flex;
+  flex: 2;
+  width: 100%;
+  height: 100%;
+  background-color: var(--title);
+}
+.createsurvey-container .right {
+  padding: 24px;
+  flex: 3;
+  width: 100%;
+  height: 100%;
+}
+.survey-info input,
+.textarea {
+  margin-bottom: 20px;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid var(--title);
+}
+.survey-info-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.survey-setup-dimension-choose div {
+  margin-bottom: 5px;
+}
+#components-collapse-demo-collapsible .ant-space {
+  width: 100%;
+}

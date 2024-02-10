@@ -1,0 +1,127 @@
+.contact_container {
+  background-color: var(--bgcolor);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contact_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.contact_heading h2 {
+  color: var(--black);
+  line-height: 27px;
+}
+.contact_desc p {
+  text-align: center;
+  color: var(--DarkGray);
+  line-height: 27px;
+}
+.contactForm_container {
+  display: flex;
+  gap: 24px;
+}
+
+.contactForm_right {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.groupeInput_row1 {
+  display: flex;
+  gap: 10px;
+}
+.groupeInput_row1 div {
+  flex-basis: 50%;
+}
+.contactForm_right input,
+textarea {
+  border: 0.5px solid var(--DarkGray);
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  resize: none;
+}
+.contactForm_right input:focus {
+  border: 0.5px solid var(--RibbonBlue);
+}
+
+.contactForm_left {
+  flex: 1;
+}
+.contact_info {
+  padding: 20px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 5px;
+}
+.contact_info__heading h4 {
+  color: var(--ZodiacBlue);
+  line-height: 24px;
+  font-size: 18px !important;
+}
+.contact_address {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contact_address__item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+@media screen and (max-width: 1050px) {
+  .groupeInput_row1 {
+    flex-wrap: wrap;
+  }
+  .groupeInput_row1 div {
+    flex-basis: 100%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contact_heading h2 {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .contact_desc p {
+    font-size: 14px;
+    text-align: left;
+    line-height: 24px;
+  }
+  .groupeInput_row1 {
+    flex-wrap: wrap;
+  }
+  .groupeInput_row1 div {
+    flex-basis: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .contact_heading h2 {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .contact_desc p {
+    font-size: 14px;
+    text-align: left;
+    line-height: 24px;
+  }
+  .contactForm_container {
+    flex-wrap: wrap;
+  }
+  .contactForm_right,
+  .contactForm_left {
+    flex-basis: 100%;
+  }
+  .groupeInput_row1 {
+    flex-wrap: wrap;
+  }
+  .groupeInput_row1 div {
+    flex-basis: 100%;
+  }
+}
